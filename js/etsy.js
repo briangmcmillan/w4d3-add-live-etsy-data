@@ -115,7 +115,7 @@ var items = [
         price: makeRandomAmount()
     },
 ]
-document.querySelector('searchResults').innerHTML = '='
+document.querySelector('searchResults').innerHTML = ''
 
 items.forEach(function(item, i) {
     item.title += i
