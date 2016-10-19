@@ -166,3 +166,11 @@ img {
   width: 500px;
   justify-content: center;
 }
+
+.footerEtsyLinks {
+  margin-top: 15px;
+}
+
+.footerEtsyLinks a {
+  color: black;
+}

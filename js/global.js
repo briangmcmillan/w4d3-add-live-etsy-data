@@ -19,10 +19,10 @@ function search() {
   var collectInput = document.getElementById('searchField').value
   document.querySelector('#searchField').value = ''
   document.querySelector('#searchResultsHomework').innerHTML = ''//This clears out any previous search results before running search function again.
-  fetch('http://thinksaydo.com/tiyproxy.php?url=' + encodeURIComponent('https://openapi.etsy.com/v2/listings/active?api_key=h9oq2yf3twf4ziejn10b717i&keywords=' + encodeURIComponent(collectInput) + '&includes=Images,Shop'))
+  fetch('https://thinksaydo.com/tiyproxy.php?url=' + encodeURIComponent('https://openapi.etsy.com/v2/listings/active?api_key=h9oq2yf3twf4ziejn10b717i&keywords=' + encodeURIComponent(collectInput) + '&includes=Images,Shop'))
   .then(response => response.json())
   .then(function(items) {
-    console.log(items)
+    // console.log(items)
     items.results.forEach(function(item) {
       var card = document.createElement('div')
       card.classList.add('col-sm-3', 'helperClass')

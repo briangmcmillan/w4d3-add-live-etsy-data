@@ -146,10 +146,18 @@ img {
     float: right;
     color: #78C047;
 }
+
+//Footer Styling Start
 .footerButtonRow {
     margin-top: 20px;
 }
 .bottomRowSearch {
     width: 500px;
     justify-content: center;
+}
+.footerEtsyLinks {
+    margin-top: 15px;
+    a {
+        color: black
+    }
 }
