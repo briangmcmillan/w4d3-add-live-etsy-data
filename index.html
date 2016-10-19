@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Etsy Site</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Stylesheets go here. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/e661b7c81d.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/global.css" />
+</head>
+<body class="body">
+  <!--Header Begin-->
+  <header>
+    <div class="container-fluid topRowBackground">
+      <div class="row">
+        <div class="col-sm-9">
+          <img src="img/etsy.jpg" alt="Etsy Logo" class="etsyLogo col-sm-1 img-responsive">
+          <span class="input-group col-sm-4 topRowButtons">
+            <input class="form-control" type="text" name="search" placeholder="Search for items or shops" value="">
+            <span class="input-group-btn">
+              <button class="btn buttonPrimary1" type="button">Search</button>
+            </span>
+          </span>
+        </div>
+        <div class="col-sm-3 topRowButtons">
+          <ul class="text-primary list-inline list-unstyled">
+            <li>Sell on Etsy</li>
+            <li>Register</li>
+            <li><button class="btn btn-default" type="submit">Sign In</button></li>
+            <li><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <hr class="noTopMargin"/>
+          <ul class="text-muted list-unstyled list-inline">
+            <li>Clothing &amp; Accesories</li>
+            <li>Jewelery</li>
+            <li>Craft Supplies &amp; Tools</li>
+            <li>Weddings</li>
+            <li>Entertainment</li>
+            <li>Home &amp; Living</li>
+            <li>Kids &amp; Baby</li>
+            <li>Vintage</li>
+          </ul>
+          <hr class="noBottomMargin"/>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Header End-->
+  <main>
+    <div class="container-fluid topMargin">
+      <div class="row">
+        <div class="col-sm-2 leftColumn">
+          <strong>
+            Show results for:
+          </strong><br>
+          <div class="whiteBackground1">
+            <div class="margin">
+              <h6>All categories</h6>
+              <div class="moreMargin">
+                <ul class="list-unstyled">
+                  <li><a href="#">Toys &amp; Games</a></li>
+                  <li><a href="#">Art &amp; Collections</a></li>
+                  <li><a href="#">Craft Supplies &amp; Tools</a></li>
+                  <li><a href="#">Home &amp; Living</a></li>
+                  <li><a href="#">Books, Movies &amp; Music</a></li>
+                  <li><a href="#">Paper &amp; Party Supplies</a></li>
+                  <li><a href="#">Accessories</a></li>
+                  <li><a href="#">Clothing</a></li>
+                  <li><a href="#">Electronics &amp; Accessories</a></li>
+                  <li><a href="#">Jewelry</a></li>
+                  <li><a href="#">Weddings</a></li>
+                  <li><a href="#">Bags &amp; Purses</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <strong>
+            Refine your search
+          </strong><br>
+          <div class="whiteBackground2">
+            <div class="margin">
+              <h6>Shop location</h6>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="blankRadio" value="option1" aria-label="..." checked> <strong>Anywhere</strong>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="blankRadio" class="blankRadio1" value="option1" aria-label="..."> <span class="text-primary">United States</span>
+                </label>
+              </div>
+              <span><a href="#">Choose a custom location</a></span><br>
+              <hr>
+              <strong>Item type</strong>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="blankRadio" class="blankRadio1" value="option1" aria-label="..."> <span class="text-primary">All items</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="blankRadio" class="blankRadio1" value="option1" aria-label="..."> <span class="text-primary">Handmade</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="blankRadio1" class="selected" value="option1" aria-label="..." checked> <strong>Vintage</strong>
+                </label>
+              </div>
+              <hr>
+              <strong>Price ($)</strong>
+              <div class="lowHighArrow">
+                <span class="input-group col-sm-2 topRowButtons"></span>
+                <input class="form-control text-muted priceSizing" type="text" name="low" placeholder="Low" value="">
+                <span>to</span>
+                <span class="input-group col-sm-2 topRowButtons"></span>
+                <input class="form-control text-muted priceSizing" type="text" name="high" placeholder="High" value="">
+                <span class="input-group col-sm-2 topRowButtons"></span>
+                <button type="button" class="btn btn-default"><i class="fa fa-caret-right fa-2x" aria-hidden="true"></i></button>
+                <!-- <input class="form-control text-muted priceSizing" type="text" name="search" placeholder=">" value=""> -->
+              </div>
+              <hr>
+              <strong>Filter by color</strong>
+              <div class="buttons">
+                <button type="button" class="btn btn-red"></button>
+                <button type="button" class="btn btn-org"></button>
+                <button type="button" class="btn btn-yel"></button>
+                <button type="button" class="btn btn-grn"></button>
+                <button type="button" class="btn btn-lblue"></button>
+                <button type="button" class="btn btn-purp"></button>
+                <button type="button" class="btn btn-blk"></button>
+              </div>
+              <hr>
+              <strong>Ordering options</strong>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="">
+                  <span class="text-primary">Accepts Etsy gift cards</span>
+                </label>
+                <label>
+                  <input type="checkbox" value="">
+                  <span class="text-primary">Customizable</span>
+                </label>
+              </div>
+              <hr>
+              <strong>Ship to</strong>
+              <div class="shipOptions">
+                <select class="form-control" id="ship_country" name="Country">
+                  <option value="US" selected>United States</option>
+                  <option value="CA">Canada</option>
+                  <option value="MX">Mexico</option>
+                </select>
+              </div><br>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-10 rightColumn">
+          <div class="row" id="searchResultsHomework">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-10">
+          Looking for shops? <a href="#">boardgames</a>, <a href="#">boardGamesFactory</a>, <a href="#">boardGamesShowcase</a>. <a href="#">See more.</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-10">
+          <div class="footerButtonRow">
+            <button type="button" class="btn btn-default"><i class="fa fa-caret-right fa-2x fa-flip-horizontal" aria-hidden="true"></i></button>
+            <button type="button" class="btn btn-default">1</button>
+            <button type="button" class="btn btn-default">2</button>
+            <button type="button" class="btn btn-default">3</button>
+            <button type="button" class="btn btn-default">4</button>
+            <button type="button" class="btn btn-default">5</button>
+            <button type="button" class="btn btn-default">6</button>
+            <button type="button" class="btn btn-default">7</button>
+            <button type="button" class="btn btn-default">8</button>
+            <button type="button" class="btn btn-default">...</button>
+            <button type="button" class="btn btn-default">250</button>
+            <button type="button" class="btn btn-default"><i class="fa fa-caret-right fa-2x" aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <span class="input-group col-sm-3 topRowButtons">
+            <input class="form-control" type="text" name="search" placeholder="Enter your email" value="">
+            <span class="input-group-btn">
+              <button class="btn buttonPrimary1" type="button">Search</button>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          Turn your passion into a business
+          <span class="input-group-btn">
+            <button class="btn buttonPrimary1" type="button">Open a shop</button>
+          </span>
+          <strong>Sell on Etsy</strong>
+          <p>Open a shop</p>
+          <p>Seller Handbook</p>
+          <p>Etsy credit card reader</p>
+          <p>Manufacturing</p>
+        </div>
+        <div class="col-sm-2">
+          Join the community
+        </div>
+        <div class="col-sm-2">
+          Discover and shop
+        </div>
+        <div class="col-sm-2">
+          Get to know us
+        </div>
+        <div class="col-sm-2">
+          Follow Etsy
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts go here. -->
+  <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
+  <script type="text/javascript" src="js/global.js"></script>
+</body>
+</html>

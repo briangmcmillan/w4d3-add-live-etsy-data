@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 250px;
+}
+
+.body {
+  background-color: #F5F5F1;
+}
+
+.noBottomMargin {
+  margin-bottom: 0px;
+}
+
+.noTopMargin {
+  margin-top: 0px;
+}
+
+.topMargin {
+  margin-top: 20px;
+}
+
+.topRowBackground {
+  background-color: white;
+}
+
+.fa-shopping-cart {
+  color: #666666;
+}
+
+.etsyLogo {
+  width: 140px;
+}
+
+.topRowButtons {
+  margin-top: 20px;
+}
+
+.buttonPrimary1 {
+  background-color: #34A8C4;
+  color: white;
+}
+
+.whiteBackground1 {
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #E1E3DF;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.whiteBackground2 {
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #E1E3DF;
+  margin-top: 15px;
+}
+
+.margin {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.moreMargin {
+  margin-left: 10px;
+}
+
+.blankRadio1 {
+  color: blue;
+}
+
+.priceSizing {
+  height: 40px;
+  width: 75px;
+}
+
+.btn-red {
+  background-color: red;
+  height: 25px;
+  width: 25px;
+}
+
+.btn-org {
+  background-color: orange;
+  height: 25px;
+  width: 25px;
+}
+
+.btn-yel {
+  background-color: yellow;
+  height: 25px;
+  width: 25px;
+}
+
+.btn-grn {
+  background-color: green;
+  height: 25px;
+  width: 25px;
+}
+
+.btn-lblue {
+  background-color: blue;
+  height: 25px;
+  width: 25px;
+}
+
+.btn-purp {
+  background-color: purple;
+  height: 25px;
+  width: 25px;
+}
+
+.btn-blk {
+  background-color: black;
+  height: 25px;
+  width: 25px;
+}
+
+.colStyle {
+  background-color: red;
+}
+
+.helperClass p {
+  display: inline;
+}
+
+.secondDiv {
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #E1E3DF;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.textDiv {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.textDiv h6 {
+  display: inline-block;
+  margin-bottom: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 300px;
+}
+
+.titleText {
+  margin-bottom: -2px;
+}
+
+.rightSide {
+  float: right;
+  color: #78C047;
+}
+
+.footerButtonRow {
+  margin-top: 20px;
+}
