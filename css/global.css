@@ -161,3 +161,8 @@ img {
 .footerButtonRow {
   margin-top: 20px;
 }
+
+.bottomRowSearch {
+  width: 500px;
+  justify-content: center;
+}

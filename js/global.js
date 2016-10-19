@@ -1,6 +1,11 @@
+//What am I doing? I am creating this variable, and naming it "click".
+//Why am I doing this? This is going to search through my HTML document (index.html), and look for an element ID that I named "searchButton". This is in my header section. It is the button that a user would click on to search the term that they input. Once they hit the click button, the value that they input will be saved into my variable and will be apart of my EventListener function below.
 var click = document.getElementById('searchButton')
+//What am I doing? I am creating this variable, and naming it "enter".
+//Why am I doing this? This is going to search through my HTML document (index.html), and look for an element ID that I named "searchField". This is also in my header section. It is the input tag that a user would type in keywords to what they want to search etsy for. Whatever word they type, then hit the enter button, will now become the value of the click variable. That word will be apart of the EventListener below once they do a keypress.
 var enter = document.getElementById('searchField')
-
+//What am I doing? I am creating a EventListener function that is going to be waiting on a user to input a value in the search box, wait on them to click the search button, save that word and run it through my fetch below.
+//Why am I doing this? I am doing this so that when a user types a word, I can pull that into my click variable and return to this cards with images, titles, prices, and sellers for any etsy items that match the keyword they searched for. ex.) basketball
 click.addEventListener('click', search)//(name of event, function)
 enter.addEventListener('keypress', searchEnter)
 
